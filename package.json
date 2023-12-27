@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "husky": "husky install",
-    "test": "jest"
+    "test": "jest --passWithNoTests",
+    "test:staged": "jest"
   },
   "keywords": [],
   "author": "",
@@ -25,6 +26,7 @@
     "lint-staged": "^15.2.0",
     "prettier": "^3.1.1",
     "ts-jest": "^29.1.1",
+    "ts-node": "^10.9.2",
     "typescript": "^5.3.3"
   },
   "dependencies": {

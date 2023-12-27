@@ -6,5 +6,7 @@
     "target": "es2019",
     "esModuleInterop": true,
     "allowJs": true
-  }
+  },
+  "include": ["src/**/*", "./jest.config.ts"],
+  "exclude": ["node_modules", "**/*.spec.ts"]
 }
