@@ -36,6 +36,12 @@ $ git config --global code.editor code ## para essa opção foi escolhido o VS C
     s = !git status -s ## git s (chama git status) Ex: M test.js  (M - Modified)
     add = !git add ## git add (chama git add)
 ```
+
 ## padrões utilizados no projeto
-- conventional commits
+
+- conventional commits: [ commitlint/cli - config-conventional ]
 - typescript & types
+- jest: [ swc para compilador ]
+- eslint: [ eslint-config-prettier ]
+- husky
+- lint-staged
