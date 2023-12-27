@@ -1,7 +1,7 @@
 {
   "name": "clean-node-api-ts",
   "version": "1.0.0",
-  "description": "comandos para criaçao de atalhos alias para o git",
+  "description": "clean node api ts",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -10,6 +10,10 @@
   "author": "",
   "license": "ISC",
   "devDependencies": {
-    "git-commit-msg-linter": "^5.0.6"
+    "git-commit-msg-linter": "^5.0.6",
+    "typescript": "^5.3.3"
+  },
+  "dependencies": {
+    "@types/node": "^20.10.5"
   }
 }
