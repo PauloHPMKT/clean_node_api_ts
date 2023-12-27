@@ -6,7 +6,7 @@
   "scripts": {
     "husky": "husky install",
     "test": "jest --passWithNoTests",
-    "test:staged": "jest"
+    "test:staged": "jest --passWithNoTests --findRelatedTests"
   },
   "keywords": [],
   "author": "",
