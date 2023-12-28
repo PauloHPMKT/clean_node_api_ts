@@ -2,8 +2,7 @@ import { MissingParamError } from '../erros/missing-param.error';
 import { SignupController } from './signup.controller';
 
 const makeSut = (): SignupController => {
-  const sut = new SignupController();
-  return sut;
+  return new SignupController();
 };
 
 describe('Signup Controller', () => {
